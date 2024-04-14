@@ -9,11 +9,11 @@ class CustomNavigator {
   static Route<dynamic> controller(RouteSettings settings) {
     //use settings.arguments to pass arguments in pages
     switch (settings.name) {
-      // case AppPages.appEntry:
-      //   return MaterialPageRoute(
-      //     builder: (context) => const SplashScreen(),
-      //     settings: settings,
-      //   );
+      case AppPages.appEntry:
+        return MaterialPageRoute(
+          builder: (context) => const SplashScreen(),
+          settings: settings,
+        );
     
       // case AppPages.orders:
       //   return MaterialPageRoute(
